@@ -1,0 +1,35 @@
+		body {background-color: #F2E7DC; color: black; text-align: justify; font-family: Arial; width: 90%; margin: auto;}
+
+		section {padding-left: 5px; padding-right: 50px; padding-top: 20px; padding-bottom: 20px;}
+
+		#titulo-principal {text-align: center; border-style: solid; padding: 5px; background-color: white; color: darkred; font-size: 72px;}
+
+		div.container {text-align: justify; border-style: solid; border: 2; border-color: darkred; padding: 20px;}
+
+		.subir-topo {text-align: right; text-decoration: none; color: yellow;}
+
+		p {text-indent: 25px;}
+
+		p.titulo-livro {text-align: center; font-size: 24px;}
+
+		a:link {color: black;}
+
+		a:visited {color: #95BFB8;}
+
+		a:hover {color: #f70404;}
+
+		a:active {color: #0D0D0D}
+
+		img {width: 25%; height: 35%; border: 5px solid whitesmoke; border-radius: 10px;}
+
+		table {width: 100%; border-color: darkred;}
+
+		th {color: white;border-color: greenyellow;}
+
+		td {background-color: #A9D9D0;}
+
+		tr {background-color: #038C7F;}
+
+		span {text-decoration: underline; color: darkolivegreen; font-family: cursive; font-weight: 900;}
+
+		.paragrafo-sinopse {text-align: justify; border-style: solid; border: 2; border-color: greenyellow; padding: 20px;}

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kroks Vídeo - Locadora</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+	rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+	crossorigin="anonymous">
+
+	<script type="text/javascript" src="_js/script.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" 
+	integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" 
+	crossorigin="anonymous"></script> 
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" 
+	integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" 
+	crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+			<img style="width: 12%;" src="_imgs/logo_kroks_videos3.png">
+			<a class="navbar-brand" href="#topo">KROKS Vídeo Locadora</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#tabFilmes">Filmes disponíveis</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#drop" id="dropGeneros" role="button" data-bs-toggle="dropdown" aria-expanded="false">Filmes por categoria</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#gAcao">Ação</a></li>
+							<li><a class="dropdown-item" href="#gAventura">Aventura</a></li>
+							<li><hr></li>
+							<li><a class="dropdown-item" href="#gRomance">Romance</a></li>
+							<li><a class="dropdown-item" href="#gSuspense">Suspense</a></li>
+							<li><hr></li>
+							<li><a class="dropdown-item" href="#gAnimacao">Animação</a></li>
+							<li><a class="dropdown-item" href="#gComedia">Comédia</a></li>
+						</ul>
+				</li>
+				<li>
+					<a class="nav-link" href="#cadFilme">Cadastrar Filmes</a>
+				</li>				
+			</ul>
+		</div>
+	</nav>
+	<h2 class="display-1 text-center mb-5">Korks Vídeos Locadora</h2>
+		<div class="container">
+			<table>
+				<thead>
+					<tr>
+						<th scope="col">Códio</th>
+						<th scope="col">Título</th>
+						<th scope="col">Diretor</th>
+						<th scope="col">Lançamento</th>
+						<th scope="col">Gênero</th>
+						<th scope="col">Ator/Atriz</th>
+						<th scope="col">Nota IMDB</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th class="text-center table-primary" colspan="7">Ação</th>
+					</tr>
+					<tr>
+						<th scope="row">1</th>
+							<td>Princípe da Pérsia: As Areias do Tempo</td>
+							<td>Mike Newell</td>
+							<td>3 de Junho de 2010</td>
+							<td>Ação</td>
+							<td>Jake Gyllenhaal</td>
+							<td>8,5/10</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+							<td>Implacável (Avengement)</td>
+							<td>Jesse V. Johnson</td>
+							<td>11 de junho de 2020</td>
+							<td>Ação</td>
+							<td>Scott Adkins</td>
+							<td>8,4/10</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+							<td>Viúva Negra</td>
+							<td>Cate Shortland</td>
+							<td>08 de julho de 2021</td>
+							<td>Ação</td>
+							<td>Scarlett Johansson</td>
+							<td>9,0/10</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<th class="text-center table-primary" colspan="7">Aventura</th>
+					</tr>
+					<tr>
+						<th scope="row">4</th>
+							<td>O Rei Leão</td>
+							<td>Roger Allers, Rob Minkoff</td>
+							<td>26 de agosto de 2011</td>
+							<td>Aventura</td>
+							<td>Garcia Júnior</td>
+							<td>9/10</td>
+					</tr>
+					<tr>
+						<th scope="row">5</th>
+							<td>Vingadores: Ultimato</td>
+							<td>Joe Russo</td>
+							<td>11 de julho de 2019</td>
+							<td>Aventura</td>
+							<td>Robert Downey Jr.</td>
+							<td>9,5/10</td>
+					</tr>
+					<tr>
+						<th scope="row">6</th>
+							<td>De Volta para o Futuro</td>
+							<td>Robert Zemeckis</td>
+							<td>19 de Janeiro de 2020</td>
+							<td>Aventura</td>
+							<td>Michael J. Fox</td>
+							<td>10/10</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<th class="text-center table-primary" colspan="7">Romance</th>
+					</tr>
+					<tr>
+						<th scope="row">7</th>
+							<td>A Culpa é das Estrelas</td>
+							<td>Josh Boone</td>
+							<td>05 de Junho de 2014</td>
+							<td>Romance/td>
+							<td>Michael H. Weber</td>
+							<td>9,9/10</td>
+					</tr>
+					<tr>
+						<th scope="row">8</th>
+							<td>A Bela e a Fera</td>
+							<td>Bill Condon</td>
+							<td>16 de Março de 2013</td>
+							<td>Romance/td>
+							<td>Stephen Chbosky</td>
+							<td>8,0/10</td>
+					</tr>
+					<tr>
+						<th scope="row">9</th>
+							<td>Amor de Redenção</td>
+							<td>D.J. Caruso</td>
+							<td>09 de julho de 2022</td>
+							<td>Romance</td>
+							<td>Francine Rivers</td>
+							<td>7,5/10</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<th class="text-center table-primary" colspan="7">Suspense</th>
+					</tr>
+					<tr>
+						<th scope="row">10</th>
+							<td>O Silêncio dos Inocentes</td>
+							<td>Jonathan Demme</td>
+							<td>17 de maio de 1991</td>
+							<td>Suspense</td>
+							<td>Thomas Harris</td>
+							<td>7,2/10</td>
+					</tr>
+					<tr>
+						<th scope="row">11</th>
+							<td>O Sexto Sentido</td>
+							<td>M. Night Shyamalan</td>
+							<td>22 de outubro de 1999</td>
+							<td>Suspense</td>
+							<td>Bruce Willis</td>
+							<td>9,0/10</td>
+					</tr>
+					<tr>
+						<th scope="row">12</th>
+							<td>A Origem</td>
+							<td>Christopher Nolan</td>
+							<td>06 de agosto de 2010</td>
+							<td>Suspense</td>
+							<td>Leonardo DiCaprio</td>
+							<td>5,0/10</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<th class="text-center table-primary" colspan="7">Animação</th>
+					</tr>
+					<tr>
+						<th scope="row">13</th>
+							<td>Up: Altas Aventuras</td>
+							<td>Pete Docter</td>
+							<td>29 de maio de 2009</td>
+							<td>Animação</td>
+							<td>Edward Asner</td>
+							<td>89,67/10</td>
+					</tr>
+					<tr>
+						<th scope="row">14</th>
+							<td>Homem-Aranha no Aranhaverso</td>
+							<td>Peter Ramsey</td>
+							<td>10 de janeiro de 2019</td>
+							<td>Animação</td>
+							<td>Bob Persichetti</td>
+							<td>89,33/10</td>
+					</tr>
+					<tr>
+						<th scope="row">15</th>
+							<td>Os Incríveis</td>
+							<td>Brad Bird</td>
+							<td>10 de dezembro de 2004</td>
+							<td>Animação</td>
+							<td>Craig T. Nelson</td>
+							<td>8,9/10</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<th class="text-center table-primary" colspan="7">Comédia</th>
+					</tr>
+					<tr>
+						<th scope="row">16</th>
+							<td>Minions 2 - A Origem de Gru</td>
+							<td>Brad Ableson</td>
+							<td>30 de Julho de 2022</td>
+							<td>Comédia</td>
+							<td>Kyle Balda</td>
+							<td>8,0/10</td>
+					</tr>
+					<tr>
+						<th scope="row">17</th>
+							<td>Smurfs: The Lost Village</td>
+							<td>Kelly Asbury</td>
+							<td>06 de Abril de 2017</td>
+							<td>Comédia</td>
+							<td> Chris Poche</td>
+							<td>9,2/10</td>
+					</tr>
+					<tr>
+						<th scope="row">18</th>
+							<td>Ice Age: Continental Drift</td>
+							<td>Mike Thurmeier</td>
+							<td>29 de Julho de 2012</td>
+							<td>Comédia</td>
+							<td>Jason Fuchs</td>
+							<td>9,7/10</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<th class="text-center table-primary" colspan="7">Drama</th>
+					</tr>
+					<tr>
+						<th scope="row">19</th>
+							<td>O Poderoso Chefão</td>
+							<td>Francis Ford Coppola</td>
+							<td>24 de fevereiro de 2022</td>
+							<td>Drama</td>
+							<td>Marlon Brando</td>
+							<td>9,8/10</td>
+					</tr>
+					<tr>
+						<th scope="row">20</th>
+							<td>Um Sonho de Liberdade</td>
+							<td>Frank Darabont</td>
+							<td>25 de janeiro de 1995</td>
+							<td>Drama</td>
+							<td>Tim Robbins</td>
+							<td>9,4/10</td>
+					</tr>
+					<tr>
+					<th scope="row">21</th>
+							<td>Forrest Gump - O Contador de Histórias</td>
+							<td>Robert Zemeckis</td>
+							<td>07 de dezembro de 1994</td>
+							<td>Drama</td>
+							<td>Tom Hanks</td>
+							<td>9,0/10</td>
+					</tr>
+					<!-- 22º Filme adicionado -->
+					<tr id="inserirTabela">
+						
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="m-5">
+			<hr class="border-primary border-3 opacity-75">
+		</div>
+
+		<h2 class="text-center mb-5">Cadastro de Filmes</h2>
+
+
+
+
+
+
+
+
+
+
+		<div class="container mb-5">
+			<form name="frmCadFilmes" onsubmit="event.preventDefault()">
+				<!-- Linha Código e Data Lançamento -->
+				<div class="row">
+
+					<!-- código -->
+					<div class="mb-3 col">
+						<label for="codFilme" class="form-label">Código:</label>
+						<input type="text" id="codFilme" class="form-control" name="codigo" required>
+					</div>
+
+					<!-- lançamento -->
+					<div class="mb-3 col">
+						<label for="anoFilme" class="form-label">Data:</label>
+						<input type="date" id="anoFilme" class="form-control" name="data" required>
+					</div>
+				</div>
+
+				<!-- Linha do Título e Diretora -->
+				<div class="row">
+					<!-- título -->
+					<div class="mb-3 col">
+						<label for="tituloFilme" class="form-label">Título:</label>
+						<input type="text" id="tituloFilme" class="form-control" name="titulo" required>
+					</div>
+
+					<!-- diretor -->
+					<div class="mb-3 col">
+						<label for="dirFilme" class="form-label">Diretor:</label>
+						<input type="text" id="tituloFilme" class="form-control" name="diretor" required>
+					</div>
+				</div>
+
+				<!-- Ator/Atriz Principal e Nota IMDb -->
+				<div class="row">
+					<!-- Ator/Atriz -->
+					<div class="mb-3 col">
+						<label for="atorFilme" class="form-label">Ator/Atriz Principal:</label>
+						<input type="text" id="atorFilme" class="form-control" name="ator-atriz" required>
+					</div>
+
+					<!-- Nota IMDb -->
+					<div class="mb-3 col">
+						<label for="imdbFilme" class="form-label">Nota IMDb:</label>
+						<input type="text" id="imdbFilme" class="form-control" name="notaIMDB" required>
+					</div>
+				</div>
+
+				<!-- Linha dos Gêneros -->
+				<div class="row">
+					<div class="mb-3 col form-check">
+						<input type="radio" name="radio" id="radGenAcao" class="form-check-input" value="Ação" required>
+						<label for="redGenAcao" class="form-label">Ação</label><br>
+					</div>
+
+					<div class="mb-3 col form-check">
+						<input type="radio" name="radio" id="radGenAventura" class="form-check-input" value="Aventura" required>
+						<label for="redGenAventura" class="form-label">Aventura</label><br>
+					</div>
+
+					<div class="mb-3 col form-check">
+						<input type="radio" name="radio" id="radGenRomance" class="form-check-input" value="Romance" required>
+						<label for="redGenRomance" class="form-label">Romance</label><br>
+					</div>
+
+					<div class="mb-3 col form-check">
+						<input type="radio" name="radio" id="radGenSuspense" class="form-check-input" value="Suspense" required>
+						<label for="redGenSuspense" class="form-label">Suspense</label><br>
+					</div>
+
+					<div class="mb-3 col form-check">
+						<input type="radio" name="radio" id="radGenAnimacao" class="form-check-input" value="Animação" required>
+						<label for="redGenAnimacao" class="form-label">Animação</label><br>
+					</div>
+
+					<div class="mb-3 col form-check">
+						<input type="radio" name="radio" id="radGenComedia" class="form-check-input" value="Comédia" required>
+						<label for="redGenCoemedia" class="form-label">Comédia</label>
+					</div>
+				</div>
+
+				<!-- Cadastro Comédia e Drama -->
+				<div class="row">
+					<div class="mb-3 col form-check">
+						<input type="radio" name="radio" id="radCadGenComedia" class="form-check-input" value="cadComedia" required>
+						<label for="radCadGenComedia" class="form-label">Comédia</label><br>
+					</div>
+
+					<div class="mb-3 col form-check">
+						<input type="radio" name="radio" id="radCadGenDrama" class="form-check-input" value="cadDrama" required>
+						<label for="radCadGenDrama" class="form-label">Drama</label><br>
+					</div>
+				</div>
+
+				<!-- Botão Cadastrar -->
+				<div class="col-auto">
+					<button type="submit" class="btn btn-primary mb-3" onclick="insere()">CADASTRAR FILME</button>
+				</div>
+			</form>
+		</div>
+</body>
+</html>

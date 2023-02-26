@@ -1,0 +1,16 @@
+Todos os elementos Block-Level
+<p> = block-level
+<ol> = block-level
+<li> = block-level
+<div> = block-level
+<section> = block-level
+<h2> = block-level
+
+Todos os elementos Inline
+<span> = inline
+<img> = inline
+<span> = inline
+<img> = inline
+<h3> = inline
+<h4> = inline
+<table>= inline
